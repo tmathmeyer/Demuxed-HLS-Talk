@@ -10,19 +10,40 @@
 }
 
 \iffalse
-I'm a chromium engineer who's responsible for launching HLS playback natively in the chromium project (and thus the Google Chrome browser).
+I'm a chromium engineer who's responsible for launching HLS playback natively
+in the chromium project (and thus the Google Chrome browser).
 
-The talk I plan to give starts by including a brief overview of the history of HLS in browsers, including how we got to the point of launching it in Chrome.
+The talk I plan to give starts by including a brief overview of the history of
+HLS in browsers, including how we got to the point of launching it in Chrome.
 
-Next up is an explanation of how this new player works, and what advantages we can make use of by building it into the browser vs shipping packaged javascript. I haven't yet decided how technical I will get when talking about the chromium pipeline/demuxer/decoder architecture or how MSE works "under the hood". The current version of the talk is intended for the chrome media team, so it covers that stuff, but I haven't yet decided if that's the right fit for the general Demuxed conference.
+Next up is an explanation of how this new player works, and what advantages we
+can make use of by building it into the browser vs shipping packaged javascript.
+I haven't yet decided how technical I will get when talking about the chromium
+pipeline/demuxer/decoder architecture or how MSE works "under the hood". The
+current version of the talk is intended for the chrome media team, so it covers
+that stuff, but I haven't yet decided if that's the right fit for the general
+Demuxed conference.
 
-I also plan on adding a section addressing the HLS library folks that isn't in the media-team version of the talk. I want to make it clear that we're not looking to replace those projects, and they will still have a lot of value to offer to site-owners from the perspective of control, telemetry, and spec-extensions.
+I also plan on adding a section addressing the HLS library folks that isn't in
+the media-team version of the talk. I want to make it clear that we're not
+looking to replace those projects, and they will still have a lot of value to
+offer to site-owners from the perspective of control, telemetry, and spec-extensions.
 
-Finally, the talk covers some of the issues I faced when launching the new player, including some stupid bugs I caused including breaking a lot of the Korean web-radio market for an afternoon. I'll have to see exactly what metrics I'm allowed to include in this part of the talk, but I'll give a brief overview of some of the major issues I've cause/found/fixed along the way.
+Finally, the talk covers some of the issues I faced when launching the new
+player, including some stupid bugs I caused including breaking a lot of the
+Korean web-radio market for an afternoon. I'll have to see exactly what metrics
+I'm allowed to include in this part of the talk, but I'll give a brief overview
+of some of the major issues I've cause/found/fixed along the way.
 
-Finally, I'll finish up talking about how the "robustness principle" of "Be conservative in what you send, be liberal in what you accept" caused a lot of delay launching the player, and a plea to the community to both produce more spec compliant manifests and for the players to be a bit less liberal in accepting wonky playlists.
+Finally, I'll finish up talking about how the "robustness principle" of "Be
+conservative in what you send, be liberal in what you accept" caused a lot of
+delay launching the player, and a plea to the community to both produce more
+spec compliant manifests and for the players to be a bit less liberal in
+accepting wonky playlists.
 
-I think it would be a good talk for demuxed because (at least from what I saw last year when I first attended), there aren't as many talks from the browser side of things, so it could help add to the breadth of subjects covered.
+I think it would be a good talk for demuxed because (at least from what I saw
+last year when I first attended), there aren't as many talks from the browser
+side of things, so it could help add to the breadth of subjects covered.
 \fi
 
 \title{A default HLS player for Chrome}
